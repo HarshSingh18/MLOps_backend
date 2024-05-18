@@ -1,4 +1,4 @@
 streamlit
 requests
 flask
-sklearn
+scikit-learn

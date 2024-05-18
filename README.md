@@ -1,2 +1,2 @@
 # flask_test
-backend portion for MLops project
+the backend portion for MLops project involving flask

@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 
 
 
-dataset = pd.read_csv('House_Rent_Dataset.csv')
+dataset = pd.read_csv('flask_test/House_Rent_Dataset.csv')
 delhi_data = dataset[dataset['City']=="Delhi"]
 X = delhi_data[['BHK','Size','Bathroom']]
 Y = delhi_data['Rent']

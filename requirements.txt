@@ -1,4 +1,5 @@
 streamlit
 requests
 flask
-pickle
+pickle5
+joblib

@@ -1,21 +1,8 @@
-import numpy as np
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-
-
-
-dataset = pd.read_csv('flask_test/House_Rent_Dataset.csv')
-delhi_data = dataset[dataset['City']=="Delhi"]
-X = delhi_data[['BHK','Size','Bathroom']]
-Y = delhi_data['Rent']
-
-X_train, X_test, y_train, y_test = train_test_split(X,Y,test_size=0.2)
-RFR = RandomForestRegressor() 
-model = RFR.fit(X_train,y_train)
-
+from flask import Flask, request, jsonify
+import pickle
 
 app = Flask(__name__)
+model = pickle.load(open('model.pkl', 'rb'))
 
 @app.route('/predict', methods=['POST'])
 def predict():

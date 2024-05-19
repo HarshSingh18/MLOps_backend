@@ -5,9 +5,6 @@
 * [Overview](#overview)
 * [Dataset](#dependencies)
 * [Process Flow](ProcessFlow)
-* [Future Application](#FutureApplication)
-* [Usage](#usage)
-* [References](References)
 
 ## Overview
 
@@ -28,7 +25,6 @@ This repository contains the dataset, .ipynb file where the machine learninng is
 
 ![image](https://github.com/HarshSingh18/MLOps_backend/assets/32611475/8d73ad94-6ccc-41f9-8b8e-f67fd04557df)
 
-
 4). Selected input features 
 5). Tried different regression algorithms
 
@@ -39,7 +35,7 @@ This repository contains the dataset, .ipynb file where the machine learninng is
 8). deployed all the files on github
 9). Edited the dockerfile accordingly
 9). Registered on render and deployed as webservice
-10). Tested the resulting weblink on postman api.
+10). Tested the resulting weblink on postman api
 
 ![postman](https://github.com/HarshSingh18/MLOps_backend/assets/32611475/d94b8f46-6320-41df-b508-dbe4693438a2) 
 

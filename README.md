@@ -9,8 +9,9 @@
 ## Overview
 
 This application is used to predict house rent prediction for the city of Delhi
+
 This repository is for the backend portion of the application and contains the dataset, ipynb file where the machine learning flow was executed and the resulting pickle (model.pkl) file of the 
-selected model along with the dockerfile,render.yaml as well as the requirements.txt
+selected model along with the dockerfile,render.yaml as well as the requirements.txt .
 
 ## Dataset
 

@@ -1,5 +1,5 @@
 # MLOps Backend
-### The backend portion for MLops project involving flask
+### The backend portion for MLops project involving flask is as follows
 
 ## Table of contents
 * [Overview](#overview)
